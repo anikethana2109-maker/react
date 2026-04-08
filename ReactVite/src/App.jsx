@@ -1,11 +1,9 @@
 import React from 'react'
-
+import card from './components/card'
 const App = () => {
   return (
     <div>
-      <div className="card">
-        <h1>React Vite</h1>
-      </div>
+      <Card />
     </div>
   )
 }
