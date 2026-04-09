@@ -1,11 +1,54 @@
-.parent{
-  height: 100%;
-  width: 100%;
-  background-color: antiquewhite;
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
 }
-.card{
-  height: 400px;
+
+.card {
+  background-color: #c084fc; /* Matching your theme */
+  border-radius: 12px;
   width: 300px;
-  background-color: rgba(230, 240, 196, 0.747);
-  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.top {
+  position: relative;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.top img {
+  width: 100px;
+  height: auto;
+}
+
+.top button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  color: #aa3bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.center {
+  padding: 20px;
+  text-align: left;
+}
+
+.center h1 {
+  font-size: 24px;
+  margin: 0 0 8px 0;
+  color: white; /* Overriding global black */
 }
