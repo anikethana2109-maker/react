@@ -1,0 +1,11 @@
+.parent{
+  height: 100%;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.card{
+  height: 400px;
+  width: 300px;
+  background-color: rgba(230, 240, 196, 0.747);
+  border-radius: 10px;
+}
