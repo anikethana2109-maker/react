@@ -12,7 +12,6 @@ function App() {
           <img src = "https://stockunlock.com/stockDetails/AMZN/general" alt="amzn logo" />
           <button className="bookmark"> save<Bookmark /></button>
         </div>
-        <div className="bottom"></div>
       </div>
     </div>
   )
