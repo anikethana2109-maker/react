@@ -1,11 +1,11 @@
 import React from 'react'
 
-const card = () => {
+const Card = () => { // Capitalized 'Card'
   return (
-    <div>
+    <div className="card"> {/* Added the 'card' class defined in index.css */}
       <h1>I am card</h1>
     </div>
   )
 }
 
-export default card
+export default Card // Capitalized 'Card'
