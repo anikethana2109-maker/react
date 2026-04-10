@@ -3,52 +3,63 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 20px;
+  background-color: #16171d; /* Matching your index.css dark theme */
 }
 
 .card {
-  background-color: #c084fc; /* Matching your theme */
-  border-radius: 12px;
-  width: 300px;
+  width: 320px;
+  background-color: #1f2028; 
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-  color: white;
+  border: 1px solid #2e303a;
 }
 
 .top {
-  position: relative;
   height: 180px;
+  background-color: #c084fc; /* Using your --accent color variable */
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+  position: relative;
 }
 
 .top img {
-  width: 100px;
-  height: auto;
+  width: 80px;
+  height: 80px;
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
 }
 
-.top button {
+.save-btn {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 6px 12px;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
   border-radius: 20px;
   border: none;
   background: white;
-  color: #aa3bff;
-  font-weight: bold;
+  color: #000;
+  font-weight: 600;
   cursor: pointer;
 }
 
 .center {
-  padding: 20px;
+  padding: 24px;
   text-align: left;
 }
 
 .center h1 {
-  font-size: 24px;
-  margin: 0 0 8px 0;
-  color: white; /* Overriding global black */
+  margin: 0;
+  font-size: 22px;
+  color: #f3f4f6; /* Matching --text-h in index.css */
+}
+
+.center p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #9ca3af; /* Matching --text in index.css */
 }

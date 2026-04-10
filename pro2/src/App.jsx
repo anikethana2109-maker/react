@@ -1,6 +1,6 @@
 import React from 'react'
 import { Bookmark } from 'lucide-react'
-import './App.css'
+import './App.css' // Ensure this is imported for the 'parent' and 'card' styles
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
         <div className="top">
           <img src="https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.svg" alt="Amazon" />
           <button className="save-btn">
-            Save <Bookmark size={16} />
+            Save <Bookmark size={16} /> 
           </button>
         </div>
         <div className="center">

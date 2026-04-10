@@ -1,0 +1,65 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #16171d; /* Matching your index.css dark theme */
+}
+
+.card {
+  width: 320px;
+  background-color: #1f2028; 
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #2e303a;
+}
+
+.top {
+  height: 180px;
+  background-color: #c084fc; /* Using your --accent color variable */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.top img {
+  width: 80px;
+  height: 80px;
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.save-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.center {
+  padding: 24px;
+  text-align: left;
+}
+
+.center h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #f3f4f6; /* Matching --text-h in index.css */
+}
+
+.center p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #9ca3af; /* Matching --text in index.css */
+}
